@@ -43,10 +43,9 @@ except ImportError:
 
 #must change N globally if changing the problem size
 
-N = 8
-K_VECTORS = 16
-#RANKS = [2,4,6,8,10,12,14,20,24,26,28,30,32,36,40,44,48,52,56,60,64,68,72]
-RANKS = [8]
+N = 64
+K_VECTORS = 72
+RANKS = [2,4,6,8,10,12,14,20,24,26,28,30,32,36,40,44,48,52,56,60,64,68,72]
 RANK_MAX = max(RANKS)
 
 TRAIN_EPOCHS = 1000
